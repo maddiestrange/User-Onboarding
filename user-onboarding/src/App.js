@@ -1,13 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
-import Forms from './Form'
+import FormikForms from './Form';
+
 
 function App() {
   return (
-    <div className="App">
-    <Forms/>
-    </div>
+    <FormikForms />
   );
 }
 
